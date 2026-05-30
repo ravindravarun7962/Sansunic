@@ -36,7 +36,7 @@
         <div class="relative z-10 max-w-5xl mx-auto px-6 py-28 md:py-12 text-center">
             <div class="inline-flex items-center gap-2 rounded-full border border-teal-400/20 bg-teal-400/10 px-5 py-2 text-sm font-medium text-teal-200 backdrop-blur-md">
                 <span class="text-teal-300">●</span>
-                Contact Sasunic Software
+                Contact Sansunic 
             </div>
 
            <h1 class="mt-6 text-4xl md:text-6xl font-extrabold leading-tight">
@@ -47,7 +47,7 @@
 </h1>
 
 <p class="mt-6 max-w-3xl mx-auto text-lg leading-8 text-slate-300">
-    At Sansunic Software, we partner with organizations to design and deliver reliable, scalable, 
+    At Sansunic, we partner with organizations to design and deliver reliable, scalable, 
     and high-performance digital solutions. Whether you are planning a new system, modernizing existing 
     infrastructure, or implementing intelligent automation, our team is committed to delivering results 
     aligned with your business objectives.
@@ -85,8 +85,8 @@
                                 </div>
                                 <h3 class="mt-4 text-lg font-bold text-slate-900">Email us</h3>
                                 <p class="mt-2 text-sm leading-7 text-slate-600">
-                                    info@sansunicsoft.com<br />
-                                    support@sansunicsoft.com
+                                    info@sansunic.com<br />
+                                    support@sansunic.com
                                 </p>
                             </div>
 

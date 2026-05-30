@@ -68,11 +68,22 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="AgenticAI.aspx" />
+    <Content Include="AIML.aspx" />
     <Content Include="APIDevelopment.aspx" />
+    <Content Include="AWS.aspx" />
+    <Content Include="Azure.aspx" />
+    <Content Include="CDS.aspx" />
+    <Content Include="CloudComputing.aspx" />
     <Content Include="Contact.aspx" />
-    <Content Include="css\Default.css" />
+    <Content Include="CSDP.aspx" />
+    <Content Include="css\page.css" />
+    <Content Include="DataScience.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="DevOps.aspx" />
+    <Content Include="GeneticAI.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="icons\agenticai.jpg" />
     <Content Include="icons\ai.jpg" />
     <Content Include="icons\api.jpg" />
     <Content Include="icons\appmaintain.png" />
@@ -91,6 +102,7 @@
     <Content Include="icons\datascience.jpg" />
     <Content Include="icons\devops.png" />
     <Content Include="icons\ecommerce.jpg" />
+    <Content Include="icons\geneticai.jpg" />
     <Content Include="icons\java.png" />
     <Content Include="icons\k2five.jpg" />
     <Content Include="icons\mdcrm.png" />
@@ -105,6 +117,7 @@
     <Content Include="icons\powerplatform.jpg" />
     <Content Include="icons\powervirtualagent.jpg" />
     <Content Include="icons\python.jpg" />
+    <Content Include="icons\qa.jpg" />
     <Content Include="icons\reactjs.png" />
     <Content Include="icons\rpa.jpg" />
     <Content Include="icons\sharepoint.jpg" />
@@ -115,7 +128,47 @@
     <Content Include="icons\uiux.png" />
     <Content Include="icons\vmware.jpg" />
     <Content Include="icons\webdevelop.png" />
+    <Content Include="img\agentic-about.jpg" />
+    <Content Include="img\agentic-hero.jpg" />
+    <Content Include="img\ai-about.jpg" />
+    <Content Include="img\ai-hero.jpg" />
+    <Content Include="img\api-about.jpg" />
+    <Content Include="img\api-hero.jpg" />
+    <Content Include="img\aws-about.jpg" />
+    <Content Include="img\aws-hero.jpg" />
+    <Content Include="img\azure-about.jpg" />
+    <Content Include="img\azure-hero.jpg" />
+    <Content Include="img\cloud-about.jpg" />
+    <Content Include="img\cloud-hero.jpg" />
+    <Content Include="img\cyber-about.jpg" />
+    <Content Include="img\cyber-hero.jpg" />
+    <Content Include="img\datascience-about.jpg" />
+    <Content Include="img\datascience-hero.jpg" />
+    <Content Include="img\devops-about.jpg" />
+    <Content Include="img\devops-hero.jpg" />
+    <Content Include="img\geneticai-about.jpg" />
+    <Content Include="img\geneticai-hero.jpg" />
+    <Content Include="img\logo.png" />
+    <Content Include="img\powerapp-about.jpg" />
+    <Content Include="img\powerapp-hero.jpg" />
+    <Content Include="img\powerautomate-about.jpg" />
+    <Content Include="img\powerautomate-hero.jpg" />
+    <Content Include="img\powerplatform-about.jpg" />
+    <Content Include="img\powerplatform-hero.jpg" />
+    <Content Include="img\pva-about.jpg" />
+    <Content Include="img\pva-hero.jpg" />
+    <Content Include="img\qa-about.jpg" />
+    <Content Include="img\qa-hero.jpg" />
+    <Content Include="img\sharepoint-about.jpg" />
+    <Content Include="img\sharepoint-hero.jpg" />
+    <Content Include="js\main.js" />
+    <Content Include="PowerApps.aspx" />
+    <Content Include="PowerAutomate.aspx" />
+    <Content Include="PowerPlatform.aspx" />
+    <Content Include="PowerVirtualAgent.aspx" />
+    <Content Include="QA.aspx" />
     <Content Include="Services.aspx" />
+    <Content Include="Sharepoint.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -126,12 +179,54 @@
     <Compile Include="About.aspx.designer.cs">
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
+    <Compile Include="AgenticAI.aspx.cs">
+      <DependentUpon>AgenticAI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AgenticAI.aspx.designer.cs">
+      <DependentUpon>AgenticAI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AIML.aspx.cs">
+      <DependentUpon>AIML.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AIML.aspx.designer.cs">
+      <DependentUpon>AIML.aspx</DependentUpon>
+    </Compile>
     <Compile Include="APIDevelopment.aspx.cs">
       <DependentUpon>APIDevelopment.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="APIDevelopment.aspx.designer.cs">
       <DependentUpon>APIDevelopment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AWS.aspx.cs">
+      <DependentUpon>AWS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AWS.aspx.designer.cs">
+      <DependentUpon>AWS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Azure.aspx.cs">
+      <DependentUpon>Azure.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Azure.aspx.designer.cs">
+      <DependentUpon>Azure.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CDS.aspx.cs">
+      <DependentUpon>CDS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CDS.aspx.designer.cs">
+      <DependentUpon>CDS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CloudComputing.aspx.cs">
+      <DependentUpon>CloudComputing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CloudComputing.aspx.designer.cs">
+      <DependentUpon>CloudComputing.aspx</DependentUpon>
     </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
@@ -140,6 +235,20 @@
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
+    <Compile Include="CSDP.aspx.cs">
+      <DependentUpon>CSDP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CSDP.aspx.designer.cs">
+      <DependentUpon>CSDP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DataScience.aspx.cs">
+      <DependentUpon>DataScience.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DataScience.aspx.designer.cs">
+      <DependentUpon>DataScience.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -147,16 +256,72 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="DevOps.aspx.cs">
+      <DependentUpon>DevOps.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DevOps.aspx.designer.cs">
+      <DependentUpon>DevOps.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GeneticAI.aspx.cs">
+      <DependentUpon>GeneticAI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GeneticAI.aspx.designer.cs">
+      <DependentUpon>GeneticAI.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="PowerApps.aspx.cs">
+      <DependentUpon>PowerApps.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PowerApps.aspx.designer.cs">
+      <DependentUpon>PowerApps.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PowerAutomate.aspx.cs">
+      <DependentUpon>PowerAutomate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PowerAutomate.aspx.designer.cs">
+      <DependentUpon>PowerAutomate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PowerPlatform.aspx.cs">
+      <DependentUpon>PowerPlatform.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PowerPlatform.aspx.designer.cs">
+      <DependentUpon>PowerPlatform.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PowerVirtualAgent.aspx.cs">
+      <DependentUpon>PowerVirtualAgent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PowerVirtualAgent.aspx.designer.cs">
+      <DependentUpon>PowerVirtualAgent.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QA.aspx.cs">
+      <DependentUpon>QA.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QA.aspx.designer.cs">
+      <DependentUpon>QA.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Services.aspx.cs">
       <DependentUpon>Services.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Services.aspx.designer.cs">
       <DependentUpon>Services.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sharepoint.aspx.cs">
+      <DependentUpon>Sharepoint.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sharepoint.aspx.designer.cs">
+      <DependentUpon>Sharepoint.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>

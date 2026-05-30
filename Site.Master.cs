@@ -19,7 +19,7 @@ namespace SANSUNIC
         {
             try
             {
-                DataTable dt = Utility._GetDataTable24("Select * from SiteNavigation where Site = 'Aptum' order by Orderby");
+                DataTable dt = Utility._GetDataTable24("Select * from SiteNavigation where Site = 'SANSUNIC' order by Orderby");
 
                 if (dt == null || dt.Rows.Count == 0)
                 {

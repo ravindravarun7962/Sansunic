@@ -117,7 +117,7 @@
                     <span class="hero-label"><i class="fa-solid fa-briefcase"></i> Our Services</span>
                     <h1 class="hero-title">Services Built Around <em>Real Business Needs</em></h1>
                     <p class="hero-desc">
-                        At Sansunic Software, our services are designed for businesses that want dependable technology, better workflow management, and digital systems that actually support day-to-day operations. We do not believe in offering one-size-fits-all solutions. We listen carefully, understand the requirement properly, and then create technology that is practical, scalable, and genuinely useful.
+                        At Sansunic, our services are designed for businesses that want dependable technology, better workflow management, and digital systems that actually support day-to-day operations. We do not believe in offering one-size-fits-all solutions. We listen carefully, understand the requirement properly, and then create technology that is practical, scalable, and genuinely useful.
                     </p>
                     <div class="hero-actions">
                         <asp:HyperLink runat="server" NavigateUrl="~/contact.aspx" CssClass="btn btn-primary"><i class="fa-solid fa-paper-plane"></i> Request a Consultation</asp:HyperLink>
@@ -266,21 +266,21 @@
                             <div class="benefit-mark"><i class="fa-solid fa-check"></i></div>
                             <div>
                                 <h4>Clear understanding</h4>
-                                <p>Visitors should quickly understand what service is offered and whether it matches their requirement. [web:57][web:63]</p>
+                                <p>Visitors should quickly understand what service is offered and whether it matches their requirement. </p>
                             </div>
                         </div>
                         <div class="benefit-item">
                             <div class="benefit-mark"><i class="fa-solid fa-check"></i></div>
                             <div>
                                 <h4>Practical business value</h4>
-                                <p>Service descriptions work better when they show the outcome and benefit, not just the technical label. [web:57][web:59]</p>
+                                <p>Service descriptions work better when they show the outcome and benefit, not just the technical label.</p>
                             </div>
                         </div>
                         <div class="benefit-item">
                             <div class="benefit-mark"><i class="fa-solid fa-check"></i></div>
                             <div>
                                 <h4>Easy next step</h4>
-                                <p>Strong service pages guide users toward consultation, enquiry, or contact without making the journey confusing. [web:57][web:61]</p>
+                                <p>Strong service pages guide users toward consultation, enquiry, or contact without making the journey confusing. </p>
                             </div>
                         </div>
                         <div class="benefit-item">
@@ -334,15 +334,15 @@
                 <div>
                     <h2 id="ctaHeading">Need the right service for your business?</h2>
                     <p>
-                        Effective service pages should make the next step clear, whether that is contacting the company, requesting consultation, or moving into a more focused discussion about requirements. [web:57][web:59][web:61]
+                        Effective service pages should make the next step clear, whether that is contacting the company, requesting consultation, or moving into a more focused discussion about requirements.
                     </p>
                     <p style="margin-top:16px; color:rgba(255,255,255,0.84);">
-                        Share your requirement with Sasunic Software and we will help you identify the most suitable digital solution for your business.
+                        Share your requirement with Sansunic and we will help you identify the most suitable digital solution for your business.
                     </p>
                 </div>
                 <div class="cta-actions">
                     <asp:HyperLink runat="server" NavigateUrl="~/contact.aspx" CssClass="btn btn-primary" style="background:#fff;color:#2348d4;">Contact Us</asp:HyperLink>
-                    <asp:HyperLink runat="server" NavigateUrl="mailto:info@sansunicsoft.com" CssClass="btn btn-outline" style="border-color:#fff;color:#fff;">Email Us</asp:HyperLink>
+                    <asp:HyperLink runat="server" NavigateUrl="mailto:info@sansunic.com" CssClass="btn btn-outline" style="border-color:#fff;color:#fff;">Email Us</asp:HyperLink>
                 </div>
             </div>
         </div>

@@ -15,6 +15,45 @@ namespace SANSUNIC
 {
     public class Utility
     {
+        static public void ExecuteQuery(String _Query, Boolean _Procedure, params SqlParameter[] _Parameters)
+        {
+            SqlConnection Con = new SqlConnection(ConfigurationManager.ConnectionStrings["Interview"].ConnectionString);
+
+            try
+            {
+                SqlCommand cmd = Con.CreateCommand();
+                cmd.CommandText = _Query;
+                cmd.CommandType = _Procedure ? CommandType.StoredProcedure : CommandType.Text;
+                foreach (SqlParameter _Parameter in _Parameters)
+                    cmd.Parameters.Add(_Parameter);
+                Con.Open();
+                cmd.ExecuteNonQuery();
+
+            }
+            catch { }
+            finally { Con.Close(); }
+        }
+
+        static public void ExecuteQuery(String _Query)
+        {
+            SqlConnection Con = new SqlConnection(ConfigurationManager.ConnectionStrings["Interview"].ConnectionString);
+            try
+            {
+                SqlCommand cmd = Con.CreateCommand();
+                cmd.CommandText = _Query;
+                Con.Open();
+                cmd.ExecuteNonQuery();
+            }
+            catch { }
+            finally { Con.Close(); }
+        }
+        static public void _BindGridView(GridView gv, String Query)
+        {
+            DataTable _dt = Utility._GetTable(Query);
+            gv.DataSource = _dt;
+            gv.DataBind();
+        }
+
         // ✅ DB METHOD
         public static DataTable _GetDataTable24(string query)
         {
@@ -24,6 +63,47 @@ namespace SANSUNIC
             return dt;
                 
             
+        }
+        public static DataTable _GetTable(string query)
+        {
+            SqlDataAdapter adapter = new SqlDataAdapter(query, ConfigurationManager.ConnectionStrings["Interview"].ConnectionString);
+            DataTable dt = new DataTable();
+            adapter.Fill(dt);
+            return dt;
+
+
+        }
+        static public void _BindDropdown(DropDownList ddl, String Query, String ValueField, String TestField, String selectedValue)
+        {
+            DataTable _dt = Utility._GetTable(Query);
+            ddl.DataSource = _dt;
+            ddl.DataTextField = TestField;
+            ddl.DataValueField = ValueField;
+            ddl.DataBind();
+            ddl.Items.Insert(0, new ListItem("None", "0"));
+            if (!String.IsNullOrEmpty(selectedValue))
+                ddl.SelectedValue = selectedValue;
+
+        }
+
+        static public void _BindDropdown(DropDownList ddl, String Query, String ValueField, String TestField)
+        {
+            DataTable _dt = Utility._GetTable(Query);
+            ddl.DataSource = _dt;
+            ddl.DataTextField = TestField;
+            ddl.DataValueField = ValueField;
+            ddl.DataBind();
+            ddl.Items.Insert(0, new ListItem("None", "0"));
+
+        }
+        static public void _BindChechboxList(CheckBoxList chklist, String Query, String ValueField, String TestField)
+        {
+            DataTable _dt = Utility._GetTable(Query);
+            chklist.DataSource = _dt;
+            chklist.DataTextField = TestField;
+            chklist.DataValueField = ValueField;
+            chklist.DataBind();
+
         }
 
         // ✅ SIMPLE URL FORMAT
